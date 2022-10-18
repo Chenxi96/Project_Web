@@ -21,9 +21,6 @@
     gap: 2rem;
 }
 
-.name {
-    align-self: flex-start;
-}
 /* main info */
 .about-me {
     border: 1px black solid;

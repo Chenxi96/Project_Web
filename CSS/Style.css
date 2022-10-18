@@ -1,0 +1,45 @@
+*, *::after, *::before {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header Navigation bar */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    gap: 2rem;
+    border: 1px black solid;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+}
+
+.name {
+    align-self: flex-start;
+}
+/* main info */
+.about-me {
+    border: 1px black solid;
+    width: 100%;
+    display: grid;
+    background: linear-gradient(0.25turn, black, 50%, gray);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.picture {
+    grid-area: 1 / 1 / span 2 / span 2;
+    opacity: 50%;
+}
+
+.description {
+    z-index: 1;
+    grid-area: 1 / 2 / 2 / 2;
+}

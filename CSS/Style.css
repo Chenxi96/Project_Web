@@ -21,6 +21,26 @@
     gap: 2rem;
 }
 
+.nav {
+    border: 1px black solid;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: padding 2s, background-color 2s, 1s;
+}
+
+.nav:hover {
+    color: blue;
+    background-color: green;
+    padding: 0px;
+
+}
+
+.nav:active {
+    background-color: black;
+    color: white;
+}
+
 /* main info */
 .about-me {
     border: 1px black solid;

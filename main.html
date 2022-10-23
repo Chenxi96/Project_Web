@@ -9,19 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="/script.js" defer>
+    </script>
 </head>
 <body>
-    <header class="nav-bar">
+    <header id="nav-bar" class="nav-bar">
         <p class="name">Dawn Chenxi Lin</p>
-        <div class="container">
+        <div id="container" class="container">
             <a class="nav portfolio" id="change" href="">Portfolio</a>
-            <a class="nav about" id="change"  href="">About</a>
-            <a class="nav contact" id="change"  href="">Contact</a>
+            <a class="nav about" id="change2"  href="">About</a>
+            <a class="nav contact" id="change3"  href="">Contact</a>
         </div>
     </header>
     <main>
         <section>
-            <article class="about-me">
+            <article id="about-me" class="about-me">
                 <div class="picture"></div>
                 <div class="my-description">
                     <p class="greeting"> Hey! I'm Dawn!</p>
@@ -31,11 +33,9 @@
         </section>
     </main>
     <footer class="projects">
-        <div id="text"> </div>
-        <a id="bad-link" href="">Project</a>
+        <p><img src="/others/envelope-solid-24.png" alt=""><a class="email" href="">lin.chenxi14@gmail.com</a></p>
+        <p><img src="/others/linkedin-square-logo-24.png" alt=""><a href="https://ca.linkedin.com/in/chenxilin?trk=people-guest_people_search-card">linkedin.com/in/chenxilin</a></p>
+        <button id="dark-mode">Dark Mode</button>
     </footer>
-    <script src="script.js">
-        joke.addEventListener('click', lameJoke)
-    </script>
 </body>
 </html>

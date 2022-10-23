@@ -6,6 +6,7 @@
 /* Header Navigation bar */
 .nav-bar {
     background-color: aquamarine;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -80,3 +81,9 @@
     width: 25rem;
     font-size: 24px;
 }
+
+.projects {
+    display: inline-flex;
+    gap: 1rem;
+}
+
